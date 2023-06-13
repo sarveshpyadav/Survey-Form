@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#head{
+    font-size: 1.8em;
+}
+
+#sub-head{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#content{
+    width: 90%;
+    margin: auto;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 54%;
+    padding: 2.5em 1.625em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+form .box{
+    width: 98.5%;
+    height: 2.5em;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+#text, #age, #email, #message{
+    padding: 0.2375rem;
+}
+
+#option select{
+    width: 98.5%;
+    height: 2.5em;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+.rc{
+    display: inline-block;
+    margin-right: 0.625rem;
+}
+
+.message{
+    min-height: 120px;
+    width: 98.5%;
+    resize: vertical;
+    border-radius: 5px;
+}
+
+.submit-button{
+    font-size: 0.967rem;
+    display: block;
+    padding: 0.50rem;
+    width: 98.5%;
+    cursor: pointer;
+    background-color: #66ff00;
+    outline: none;
+    color: inherit;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.5s linear;
+}
+
+.submit-button:hover{
+    transform: scale(1.02);
+}
